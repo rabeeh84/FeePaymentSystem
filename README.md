@@ -66,7 +66,7 @@ source folder, then add the connector jar to the project libraries and run
 
 ## How to use it
 
-1. **Login** with `admin` / `YEDINKUTTAN`.
+1. **Login** with `username` / `Your password`.
 2. **Student Management** — type the details, press `ADD`. Click any table
    row to load it into the form, then `UPDATE` or `DELETE`. `SEARCH` works
    on admission number or name.

@@ -53,10 +53,10 @@ CREATE TABLE IF NOT EXISTS payments (
 
 -- -----------------------------------------------------
 -- Sample login user
--- Username: admin      Password: YEDINKUTTAN
+-- Username: admin      Password: your password_here
 -- -----------------------------------------------------
-INSERT INTO users (username, password) VALUES ('admin', 'YEDINKUTTAN')
-    ON DUPLICATE KEY UPDATE password = 'YEDINKUTTAN';
+INSERT INTO users (username, password) VALUES ('admin', 'your password_here')
+    ON DUPLICATE KEY UPDATE password = 'your password_here';
 
 -- -----------------------------------------------------
 -- Sample students (so the tables are not empty on first run)
